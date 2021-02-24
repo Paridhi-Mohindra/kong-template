@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Kong-gw"
+  description: "Kong API Gateway"
+  annotations:
+    github.com/project-slug: Paridhi-Mohindra/kong-template
+    backstage.io/techdocs-ref: url:https://github.com/Paridhi-Mohindra/kong-template
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "Paridhi"
